@@ -1,141 +1,151 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
 	<meta charset="UTF-8">
-	<title>test site</title>
-	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<meta name="viewport" content="width-device-width, initial-scale=1.0">
+	<title>Киномонстр</title>
+	<meta name="description" content="Киномонстр - єто портал о кино">
+	<meta name="keywords" content="фильмы, фильмы онлайн, HD">
+	<link rel="stylesheet" href="assets/css/style.css" type="text/css">
 </head>
 <body>
-	<div class="box">
-		<header>
-			<a href="#"><img src="img/logo.png" alt="logo" class="logo"></a>
-			<a href="#" class="menu">Home</a>
-			<a href="#" class="menu">About</a>
-			<a href="#" class="menu">Blogs</a>
-			<a href="#" class="menu">Work</a>
-			<a href="#" class="menu">News</a>
-			<a href="#" class="menu">Contacts</a>
-		</header>
-			<div class="child1" id="myChild1">
-				<div><a href="#" class="asidemenu">&#10097; Lorem ipsum dolor 1</a></div>
-				<div><a href="#" class="asidemenu">&#10097; Lorem ipsum dolor 2</a></div>
-				<div><a href="#" class="asidemenu">&#10097; Lorem ipsum dolor 3</a></div>
-				<div><a href="#" class="asidemenu">&#10097; Lorem ipsum dolor 4</a></div>
-				<div><a href="#" class="asidemenu">&#10097; Lorem ipsum dolor 5</a></div>
-				<div><a href="#" class="asidemenu">&#10097; Lorem ipsum dolor 6</a></div>
-				<div><a href="#" class="asidemenu">&#10097; Lorem ipsum dolor 7</a></div>
-				<div><a href="#" class="asidemenu">&#10097; Lorem ipsum dolor 8</a></div>
-				<div><a href="#" class="asidemenu">&#10097; Lorem ipsum dolor 9</a></div>
-				<div><a href="#" class="asidemenu">&#10097; Lorem ipsum dolor 10</a></div>
-			</div>
-			<div class="child2">
-				<div class="twochild">
-					<h3>Lorem ipsum dolor sit amet.</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, ab! Facere debitis facilis expedita, officia ducimus tempora, ipsam consequatur quod nobis ipsa deserunt tempore nihil harum, dolorem sit labore mollitia nisi iusto totam, <a href="#" class="link">odio culpa modi rem</a>. Ullam nesciunt, suscipit!</p>
+
+	<div class="main">
+		<div class="header">
+			<div class="logo">
+				<div class="logo_text">
+					<h1><a href="index.html">КиноМонстр</a></h1>
+					<h2>Кино - наша страсть!</h2>
 				</div>
-					<div class="twochildh"><h3>Images</h3></div>
-					<div class="twochild1"><img src="img/img.jpg" alt="img" class="imgcontent"></div>
-					<div class="twochild2"><img src="img/img1.jpg" alt="img" class="imgcontent"></div>
-					<div class="twochild3"><img src="img/img2.jpg" alt="img" class="imgcontent"></div>
 			</div>
-			<div class="child3">
-				<div>
-					<h4>Left Block</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam id reprehenderit maiores nobis culpa nihil, aperiam rerum nesciunt accusamus autem necessitatibus ratione architecto error consequuntur est consequatur quidem beatae amet eveniet. Quod molestias sunt, itaque dolore. Nemo velit, rem excepturi cum, voluptatem quia quas esse pariatur. Tempore in ad sed, laborum perferendis!</p>
-				</div>
-				<a href="#" class="link">Read more&#8608;</a>
+
+			<div class="menubar">
+				
+				<ul class="menu">
+					<li class="selected"><a href="index.html">Главная</a></li>
+					<li><a href="films.html">Фильмы</a></li>
+					<li><a href="#">Сериалы</a></li>
+					<li><a href="rating.html">Рейтинг фильмов</a></li>
+					<li><a href="contact.html">Контакты</a></li>
+				</ul>
+
 			</div>
-			<div class="child4">
-				<div class="child4title">
-					<h3>Lists and Descriptions</h3>
+		</div>
+
+		<div class="site_content">
+			
+			<div class="sidebar_container">
+				
+				<div class="sidebar">
+					<h2>Поиск</h2>
+					<form method="post" action="#" id="search_form">
+						<input type="search" name="search_field" placeholder="ваш запрос">
+						<input type="submit" class="btn" value="найти">
+					</form>
 				</div>
-				<div class="child4unordered">
-					<h4>Unordered list</h4>
+
+				<div class="sidebar">
+					<h2>Вход</h2>
+					<form method="post" action="#" id="login">
+						<input type="text" name="login_field" placeholder="логин">
+						<input type="password" name="password_field" placeholder="пароль">
+						<input type="submit" class="btn" value="вход">
+						<div class="lables_passreg_text">
+							<span><a href="#">забыли пароль?</a></span> | <span><a href="#">регистрация</a></span>
+						</div>
+					</form>
+				</div>
+				<div class="sidebar">
+					<h2>Новости</h2>
+					<span>31.02.2018</span>
+					<p>Мы запустили расширенный поиск</p>
+					<a href="#">Читать</a>
+				</div>
+				<div class="sidebar">
+					<h2>Рейтинг фильмов</h2>
 					<ul>
-						<li>Lorem ipsum dolor sit.</li>
-						<li>Lorem ipsum dolor.</li>
-						<li>Lorem ipsum dolor sit amet.</li>
-						<li>Lorem ipsum dolor.</li>
+						<li><a href="show.html">Интерстеллар</a><span class="rating_sidebar">8.1</span></li>
+						<li><a href="#">Матрица</a><span class="rating_sidebar">8.0</span></li>
+						<li><a href="#">Безумный Макс</a><span class="rating_sidebar">7.5</span></li>
+						<li><a href="#">Облачный атлас</a><span class="rating_sidebar">7.4</span></li>
 					</ul>
 				</div>
-				<div class="child4ordered">
-					<h4>Ordered list</h4>
-					<ol>
-						<li>Lorem ipsum dolor sit.</li>
-						<li>Lorem ipsum dolor.</li>
-						<li>Lorem ipsum dolor sit amet.</li>
-						<li>Lorem ipsum dolor.</li>
-					</ol>
-				</div>
-				<div class="child4descriptions">
-					<h4>Descriptions</h4>
-					<dl>
-						<dt>Lorem ipsum dolor sit.</dt>
-							<dd>Lorem ipsum dolor sit.</dd>
-						<dt>Lorem ipsum dolor.</dt>
-							<dd>Lorem ipsum dolor.</dd>
-						<dt>Lorem ipsum dolor sit amet.</dt>
-							<dd>Lorem ipsum dolor sit amet.</dd>
-						<dt>Lorem ipsum dolor.</dt>
-							<dd>Lorem ipsum dolor.</dd>
-					</dl>
-				</div>
-				<div class="child4table">
-					<h3>Table</h3>
-					<table>
-						<tr>
-							<td class="tabletop">Lorem</td>
-							<td class="tabletop">Lorem lorem</td>
-							<td class="tabletop">Lorem lorem lorem</td>
-						</tr>
-						<tr>
-							<td class="tablebottom">Lorem ipsum dolor</td>
-							<td class="tablebottom">Lorem ipsum dolor</td>
-							<td class="tablebottom">Lorem ipsum dolor</td>
-						</tr>
-						<tr>
-							<td class="tablebottom">Lorem ipsum dolor</td>
-							<td class="tablebottom">Lorem ipsum dolor</td>
-							<td class="tablebottom">Lorem ipsum dolor</td>
-						</tr>
-						<tr>
-							<td class="tablebottom">Lorem ipsum dolor</td>
-							<td class="tablebottom">Lorem ipsum dolor</td>
-							<td class="tablebottom">Lorem ipsum dolor</td>
-						</tr>
-						<tr>
-							<td class="tablebottom">Lorem ipsum dolor</td>
-							<td class="tablebottom">Lorem ipsum dolor</td>
-							<td class="tablebottom">Lorem ipsum dolor</td>
-						</tr>
-					</table>
-				</div>
+
 			</div>
-			<form method="post" class="child5">
-				<h3>Forms</h3>
-				<p>Text: <br>
-				<input type="text" placeholder="Input type text"></p>
-				<p>Select: <br>
-				<select size="1" name="select" id="select">
-					<option value="Choice" disabled="" selected="">Choice</option>
-					<option value="Option1">Option1</option>
-					<option value="Option2">Option2</option>
-					<option value="Option3">Option3</option>
-					<option value="Option4">Option4</option>
-					<option value="Option5">Option5</option>
-				</select></p>
-				<input type="checkbox" value=""> Sed ut perspiciatis unde omnis iste natus <br>
-				<input type="radio"> Lorem ipsum dolor sit amet, consectetur <br>
-				<p>Textarea: <br>
-				<textarea name="textarea" cols="30" rows="5" placeholder="textarea" maxlength="250" id="textarea"></textarea></p>
-				<p><input type="submit" value="Button" class="submitinput"></p>
-			</form>
-		<footer>
-			&#169;Footer content <a href="#" class="link">Link footer</a>
-		</footer>
+
+			<div class="content">
+				
+				<h1>Новые фильмы</h1>
+
+				<div class="films_block">
+					
+					<a href="#"><img src="assets/img/matrix.png" alt=""></a>
+					<a href="#"><img src="assets/img/max.png" alt=""></a>
+					<a href="show.html"><img src="assets/img/inter.png" alt=""></a>
+					<a href="#"><img src="assets/img/cloud.png" alt=""></a>
+
+				</div>
+
+				<h1>Новые сериалы</h1>
+
+				<div class="films_block">
+					
+					<a href="#"><img src="assets/img/dead.png" alt=""></a>
+					<a href="#"><img src="assets/img/silicon.png" alt=""></a>
+					<a href="#"><img src="assets/img/breakingbad.png" alt=""></a>
+					<a href="#"><img src="assets/img/xfiles.png" alt=""></a>
+
+				</div>
+
+				<div class="posts">
+					
+					<hr>
+					<h2><a href="#">Как снимали Интерстеллар</a></h2>
+					<div class="posts_content">
+						
+						<p>
+							
+							45 лет исполнилось Кристоферу Нолану — одному из самых успешных режиссеров нашего времени, чьи работы одинаково любимы как взыскательными критиками, так и простыми зрителями. Фильмом изначально занималась студия Paramount. Когда Кристофер Нолан занял место режиссера, студия Warner Bros., которая выпускала его последние фильмы, добилась участия в проекте.
+
+						</p>
+
+					</div>
+
+					<p><a href="#">читать</a></p>
+
+				</div>
+
+				<div class="posts">
+					
+					<hr>
+					<h2><a href="#">Актер Том Хенкс поделился впечатлением о фестивале</a></h2>
+					<div class="posts_content">
+						
+						<p>
+							
+							16 февраля в Лондоне состоялась 67-я церемония вручения наград Британской киноакадемии. Леонардо ДиКаприо, Брэд Питт, Анджелина Джоли, Кейт Бланшетт, Хелен Миррен, Эми Адамс, Кристиан Бэйл, Альфонсо Куарон и другие гости и победители премии — в нашем репортаже.
+						</p>
+
+					</div>
+
+					<p><a href="#">читать</a></p>
+
+				</div>
+
+			</div>
+
+		</div>
+		<div class="footer">
+			<p>
+				<a href="films.html">Главная</a> |
+				<a href="films.html">Фильмы</a> |
+				<a href="#">Сериалы</a> |
+				<a href="rating.html">Рейтинг фильмов</a> |
+				<a href="contact.html">Kонтакты</a>
+			</p>
+			<p>wh-db.com 2019</p>
+		</div>
 	</div>
-
-
 
 </body>
 </html>
