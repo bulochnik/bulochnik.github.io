@@ -1,0 +1,337 @@
+h2,h3 {
+	font-family: 'Merriweather', serif;
+}
+
+.language-block {
+	width: 100px !important;
+}
+
+.language-block a:hover {
+	color: #FC6C02 !important;
+}
+
+
+.dropdown-menu {
+	width: 300px;
+	text-align: center;
+	padding: 15px;
+}
+
+.dropdown-menu h2 {
+	font-size: 120%;
+}
+
+.dropdown-menu hr {
+	margin-top: 25%;
+}
+
+
+.header a {
+	color: white;
+	text-decoration: none;
+}
+
+.header a:hover {
+	color: #FC6C02;
+}
+
+.header img {
+	height: 100%;
+	float: left;
+}
+
+.hide-product h2 {
+	text-align: center;
+	color: #FC6C02;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+	color: white;
+	background-color: #FC6C02;
+}
+
+.nav-pills>li>a {
+	color: white;
+	font-family: 'EB Garamond', serif;
+	font-size: 16px;
+}
+
+.nav-pills>li>a:hover {
+	background-color: #FC6C02;
+}
+
+.navbar-inverse {
+	padding: 1%;
+	border-radius: 0;
+}
+
+
+
+
+
+.hide-menu li, ul {
+	list-style-type: none;
+}
+
+.hide-menu li {
+	
+}
+
+.hide-menu {
+	position: relative;
+	display: none;
+}
+
+.link a {
+	text-decoration: none;
+	color: black;
+	letter-spacing: 1px;
+}
+
+.link a:hover {
+	color: green;
+	border-bottom: solid 1px green;
+}
+
+.link:hover .hide-menu {
+	display: block;
+}
+
+
+
+
+@media (max-width: 767px) {
+	.nav-pills>li {
+		float: none;
+	}
+
+	.nav-pills {
+		text-align: center;
+	}
+
+	.header img {
+		width: 100%;
+	}
+
+	.header {
+		text-align: center;
+	}
+
+	.container h2 {
+		font-size: 150%;
+	}
+}
+
+
+
+.wrapper {
+	min-height: 100%;
+}
+
+html, body {
+	height: 100%;
+}
+
+/* left-block */
+.left-block-menu {
+	text-align: left;
+	border: none;
+	background-color: rgba(255,255,255, 0.8);
+	margin-top: -16%;
+	margin-left: 100%;
+}
+
+.left-block a {
+	text-decoration: none;
+	color: black;
+	font-family: 'EB Garamond', serif;
+	font-size: 110%;
+}
+
+.left-block-menu a {
+	color: black !important;
+}
+
+
+.left-block a:hover {
+	color: #FC6C02FF;
+}
+
+.left-block-menu a:hover {
+	color: #FC6C02 !important;
+	background-color: rgba(255,255,255, 0) !important;
+}
+
+.download-app h3 {
+	font-size: 110%;
+}
+
+
+.panel {
+	border: none;
+	background-color: #F5F5F5;
+}
+
+.panel img {
+	width: 100px;
+	float: right;
+	border: solid 1px #F5F5F5;
+}
+
+
+.panel-info>.panel-heading {
+	background-color: #FC6C02;
+	color: white;
+	border-color: transparent;
+	padding: 2px;
+}
+
+.sidebar-header {
+	letter-spacing: 2px;
+	text-align: center;
+
+}
+
+.sidebar-header h3 {
+	font-size: 180%;
+	margin: 0;
+}
+
+.badge {
+	background-color: #FC6C02;
+}
+
+.badge:hover {
+	background-color: #D45902;
+}
+
+.margin-8 {
+	margin-bottom: 1%;
+}
+
+/* bottom-menu */
+
+.block-bottom-menu h2 {
+	font-size: 180%;
+}
+
+
+.block-bottom-menu h2 {
+	font-family: 'Merriweather', serif;
+}
+
+
+.bottom-hide-menu {
+	text-align: left;
+	border: none;
+	background-color: rgba(255,255,255, 0.8);
+}
+
+
+.bottom-menu a {
+	color: black !important;
+	font-size: 14px !important;
+}
+
+.bottom-hide-menu a {
+	color: black !important;
+}
+
+.bottom-hide-menu a:hover {
+	color: #FC6C02 !important;
+}
+
+.margin-right {
+	margin-left: -90%;
+}
+
+
+/* product block */
+
+.product-block {
+	text-align: center;
+}
+
+.product-block a {
+	color: black;
+}
+
+.product-block a:hover {
+	text-decoration: none;
+	color: #2DD92A;
+}
+
+.product-block img {
+	margin-bottom: 5%;
+	border: solid 3px #C6C6C6;
+	border-radius: 5px; 
+	width: 100%;
+}
+
+.product-block img:hover {
+	border: solid 3px #FC6C02;
+}
+
+.product-label {
+	padding: 2%;
+	margin-bottom: 20%;
+}
+
+
+.sm-info-block h3{
+	font-size: 120%;
+	color: #FC6C02;
+}
+
+.border-right {
+	border-right: solid 1px black;
+}
+
+.rassprodaja {
+	width: 180px;
+}
+
+.page-item-block {
+	text-align: center;
+}
+
+.product-label-btn {
+	border: solid 2px #C6C6C6;
+	border-top: none;
+	border-left: none;
+	border-radius: 5px;
+}
+
+
+
+.page-item-block a {
+	color: black !important;
+}
+
+.pagination>.active>a {
+	background-color: #FC6C02;
+} 
+
+
+
+
+
+/* footer */
+
+.panel-footer {
+	text-align: center;
+	height: 100px;
+	background-color: black;
+}
+
+.panel-footer a {
+	color: white;
+	text-decoration: none;
+}
+
+.panel-footer a:hover {
+	color: #FC6C02;
+}
+
+
+
